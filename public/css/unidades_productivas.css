@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.iconos{
+    float: left;
+    width: 37px;
+    height: 37px;
+    position: fixed;
+    padding: 5px;
+    margin-top: 175px;
+}
+body{
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 400px;
+}
+.inicio{
+    background:linear-gradient(to right, white,rgb(8, 175, 92));
+    position: fixed;
+    width: 100%;
+}
+nav{
+    font-size: 0.99em;
+    background: white;
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    margin-top: 98px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: table;
+    background: rgb(240, 240, 240);
+    position: absolute;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav > ul > li{
+    float: right;
+    /* width: 120px; */
+    line-height: 70px;
+}
+ li{
+    text-align: center;
+} 
+nav li{
+    position: relative;
+}
+nav li li{
+    max-height: 0;
+    transition: 1s all;
+    overflow: hidden;
+}
+ul li:hover{
+    background: rgb(216, 216, 216);
+}
+nav li:hover > ul > li{
+    visibility: visible;
+    max-height: 100%;
+    overflow: visible;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul ul ul{
+    left: 100%;
+    top: 0;
+}
+/* Final del menu */
+/* buscador */
+.buscador{
+    border-radius: 50px;
+    border: 2px solid rgb(218, 218, 218);
+    margin-top: 30px;
+    margin-right: 45px;
+    padding: 8px;
+    float: right;
+}
+
+
+
+.content-main{
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-left: 50px;
+    width: 95%;
+    height: 700px;
+}
+.content-1{
+    background: rgb(185, 209, 212);
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 15px;
+}
+.content-2{
+    background: rgb(185, 209, 212);
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.content-3{
+    background: rgb(185, 209, 212);
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.content-4{
+    background:  rgb(185, 209, 212);
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.mision{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 15px;
+    font-weight: 400;
+}
+.link{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.encabezado{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    font-weight: 700;
+}
+.promo{
+    margin: 0 auto;
+    text-align: center;
+    background-position: center center;
+    color: rgb(3, 99, 51);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.promo:hover{
+    color: rgb(255,103,29);
+}
+.unidades{
+    width: 350px ;
+    height:250px;
+    text-align: center;
+    background-position: center center;
+    margin: 0 auto;
+}
+footer{
+    background:linear-gradient(to right,rgb(8, 175, 92),rgb(105, 177, 141) );
+}
+.logo_sena{
+    width: 90px;
+    height: 90px;
+    margin: 40px;
+}
+.ensayo1, .ensayo2{
+    display: inline-block;
+    padding: 10px;
+}
